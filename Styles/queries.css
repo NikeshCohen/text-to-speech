@@ -1,0 +1,36 @@
+@media (max-width: 48rem) {
+  textarea {
+    width: 40rem;
+  }
+
+  .row {
+    width: 40rem;
+  }
+
+  select {
+    width: 2rem;
+    font-size: 1rem;
+    background-size: 1rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 38rem) {
+  html {
+    font-size: 50%;
+  }
+
+  select {
+    background-position-x: calc(100% - 15px);
+    background-position-y: calc(100% - 15px);
+  }
+}
+
+@media (max-width: 27rem) {
+  .title {
+    text-align: center;
+  }
+}
